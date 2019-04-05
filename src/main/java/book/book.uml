@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>book</OriginalElement>
+  <nodes>
+    <node x="0.0" y="242.0">book.StudentReturningOrder</node>
+    <node x="501.0" y="591.0">book.BookStore</node>
+    <node x="0.0" y="428.0">book.Administrator</node>
+    <node x="248.0" y="428.0">book.BookStoreItem</node>
+    <node x="271.0" y="242.0">book.Book</node>
+    <node x="0.0" y="146.0">book.StudentBorrowingOrderItem</node>
+    <node x="292.0" y="731.0">book.StudentReturningOrderItem</node>
+    <node x="357.0" y="0.0">book.StudentBorrowingOrder</node>
+    <node x="557.0" y="242.0">book.Student</node>
+    <node x="40.5" y="0.0">book.BookOrderItem</node>
+    <node x="0.0" y="591.0">book.Manager</node>
+    <node x="0.0" y="731.0">book.BookStorageFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="book.StudentBorrowingOrderItem" target="book.BookOrderItem">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="48.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8927680798004988" x="408.0977653631285" y="381.0" />
+  <SelectedNodes>
+    <node>book.StudentReturningOrder</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
