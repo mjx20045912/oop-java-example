@@ -3,29 +3,238 @@
   <ID>JAVA</ID>
   <OriginalElement>book</OriginalElement>
   <nodes>
-    <node x="0.0" y="242.0">book.StudentReturningOrder</node>
-    <node x="501.0" y="591.0">book.BookStore</node>
-    <node x="0.0" y="428.0">book.Administrator</node>
-    <node x="248.0" y="428.0">book.BookStoreItem</node>
-    <node x="271.0" y="242.0">book.Book</node>
-    <node x="0.0" y="146.0">book.StudentBorrowingOrderItem</node>
-    <node x="292.0" y="731.0">book.StudentReturningOrderItem</node>
-    <node x="357.0" y="0.0">book.StudentBorrowingOrder</node>
-    <node x="557.0" y="242.0">book.Student</node>
-    <node x="40.5" y="0.0">book.BookOrderItem</node>
-    <node x="0.0" y="591.0">book.Manager</node>
-    <node x="0.0" y="731.0">book.BookStorageFactory</node>
+    <node x="812.5" y="634.0">book.StudentReturningOrder</node>
+    <node x="1131.3541666666665" y="428.5">book.BookStore</node>
+    <node x="660.5" y="406.0">book.Administrator</node>
+    <node x="1160.5331133919844" y="230.0">book.BookStoreItem</node>
+    <node x="916.2329545454545" y="0.0">book.Book</node>
+    <node x="10.5" y="439.5">book.StudentBorrowingOrderItem</node>
+    <node x="0.0" y="1051.0">book.StudentReturningOrderItem</node>
+    <node x="629.7466397849464" y="885.0">book.Manager</node>
+    <node x="759.1041317553415" y="230.0">book.BookOrderItem</node>
+    <node x="64.16663175534154" y="634.0">book.StudentBorrowingOrder</node>
+    <node x="362.49999999999994" y="406.0">book.Student</node>
+    <node x="1083.6875" y="679.0">book.BookStorageFactory</node>
   </nodes>
   <notes />
   <edges>
+    <edge source="book.StudentReturningOrder" target="book.StudentReturningOrder">
+      <point x="-75.33333333333333" y="70.5" />
+      <point x="850.1666666666666" y="795.0" />
+      <point x="792.5" y="795.0" />
+      <point x="792.5" y="704.5" />
+      <point x="-113.0" y="-0.0" />
+    </edge>
+    <edge source="book.Manager" target="book.BookStore">
+      <point x="171.0" y="-47.5" />
+      <point x="1028.7466397849464" y="855.0" />
+      <point x="1356.7291666666665" y="855.0" />
+      <point x="1356.7291666666665" y="614.0" />
+      <point x="1306.8541666666665" y="614.0" />
+      <point x="78.0" y="36.5" />
+    </edge>
+    <edge source="book.BookOrderItem" target="book.BookOrderItem">
+      <point x="-96.25" y="48.0" />
+      <point x="778.3541317553415" y="346.0" />
+      <point x="739.1041317553415" y="346.0" />
+      <point x="739.1041317553415" y="278.0" />
+      <point x="-115.5" y="-0.0" />
+    </edge>
+    <edge source="book.StudentBorrowingOrderItem" target="book.Book">
+      <point x="-104.0" y="-25.5" />
+      <point x="62.5" y="386.0" />
+      <point x="80.33000802960487" y="386.0" />
+      <point x="80.33000802960487" y="190.0" />
+      <point x="971.0056818181818" y="190.0" />
+      <point x="-65.72727272727275" y="70.0" />
+    </edge>
+    <edge source="book.StudentReturningOrder" target="book.Book">
+      <point x="98.875" y="-70.5" />
+      <point x="1024.375" y="614.0" />
+      <point x="1021.276026392962" y="614.0" />
+      <point x="1021.276026392962" y="210.0" />
+      <point x="1036.7329545454545" y="210.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="book.StudentBorrowingOrder" target="book.Administrator">
+      <point x="95.625" y="-70.5" />
+      <point x="312.79163175534154" y="604.0" />
+      <point x="704.0" y="604.0" />
+      <point x="-58.0" y="59.0" />
+    </edge>
+    <edge source="book.Student" target="book.Student">
+      <point x="-110.57142857142856" y="59.0" />
+      <point x="380.9285714285714" y="544.0" />
+      <point x="342.49999999999994" y="544.0" />
+      <point x="342.49999999999994" y="465.0" />
+      <point x="-129.0" y="-0.0" />
+    </edge>
+    <edge source="book.Manager" target="book.StudentReturningOrder">
+      <point x="57.0" y="-47.5" />
+      <point x="914.7466397849464" y="825.0" />
+      <point x="1000.8333333333333" y="825.0" />
+      <point x="75.33333333333337" y="70.5" />
+    </edge>
+    <edge source="book.BookStore" target="book.BookStoreItem">
+      <point x="65.0" y="-36.5" />
+      <point x="1293.8541666666665" y="386.0" />
+      <point x="1332.2831133919844" y="386.0" />
+      <point x="57.25" y="48.0" />
+    </edge>
+    <edge source="book.BookStore" target="book.Book">
+      <point x="-65.0" y="-36.5" />
+      <point x="1163.8541666666665" y="386.0" />
+      <point x="1129.6216397849464" y="386.0" />
+      <point x="1129.6216397849464" y="210.0" />
+      <point x="1080.5511363636363" y="210.0" />
+      <point x="43.818181818181756" y="70.0" />
+    </edge>
+    <edge source="book.Manager" target="book.Book">
+      <point x="95.0" y="-47.5" />
+      <point x="952.7466397849464" y="835.0" />
+      <point x="1053.1875" y="835.0" />
+      <point x="1053.1875" y="210.0" />
+      <point x="1058.6420454545455" y="210.0" />
+      <point x="21.90909090909099" y="70.0" />
+    </edge>
+    <edge source="book.Manager" target="book.StudentBorrowingOrder">
+      <point x="-171.0" y="-47.5" />
+      <point x="686.7466397849464" y="855.0" />
+      <point x="319.16663175534154" y="855.0" />
+      <point x="102.0" y="70.5" />
+    </edge>
+    <edge source="book.Manager" target="book.BookStorageFactory">
+      <point x="133.0" y="-47.5" />
+      <point x="990.7466397849464" y="845.0" />
+      <point x="1268.9375" y="845.0" />
+      <point x="61.75" y="25.5" />
+    </edge>
+    <edge source="book.Manager" target="book.Student">
+      <point x="-95.0" y="-47.5" />
+      <point x="762.7466397849464" y="835.0" />
+      <point x="515.4285714285713" y="835.0" />
+      <point x="515.4285714285713" y="594.0" />
+      <point x="528.3571428571429" y="594.0" />
+      <point x="36.85714285714289" y="59.0" />
+    </edge>
+    <edge source="book.StudentBorrowingOrder" target="book.StudentBorrowingOrder">
+      <point x="-102.0" y="70.5" />
+      <point x="115.16663175534154" y="795.0" />
+      <point x="44.16663175534154" y="795.0" />
+      <point x="44.16663175534154" y="704.5" />
+      <point x="-153.0" y="-0.0" />
+    </edge>
+    <edge source="book.StudentReturningOrder" target="book.BookOrderItem">
+      <point x="42.375" y="-70.5" />
+      <point x="967.875" y="614.0" />
+      <point x="976.5" y="614.0" />
+      <point x="976.5" y="376.0" />
+      <point x="932.3541317553415" y="376.0" />
+      <point x="57.75" y="48.0" />
+    </edge>
+    <edge source="book.Manager" target="book.Manager">
+      <point x="0.0" y="47.5" />
+      <point x="857.7466397849464" y="1000.0" />
+      <point x="609.7466397849464" y="1000.0" />
+      <point x="609.7466397849464" y="932.5" />
+      <point x="-228.0" y="-0.0" />
+    </edge>
     <edge source="book.StudentBorrowingOrderItem" target="book.BookOrderItem">
       <point x="0.0" y="-25.5" />
-      <point x="0.0" y="48.0" />
+      <point x="166.5" y="376.0" />
+      <point x="816.8541317553415" y="376.0" />
+      <point x="-57.75" y="48.0" />
+    </edge>
+    <edge source="book.BookStorageFactory" target="book.BookStorageFactory">
+      <point x="-61.75" y="25.5" />
+      <point x="1145.4375" y="750.0" />
+      <point x="1063.6875" y="750.0" />
+      <point x="1063.6875" y="704.5" />
+      <point x="-123.5" y="-0.0" />
+    </edge>
+    <edge source="book.StudentBorrowingOrder" target="book.Book">
+      <point x="-133.875" y="-70.5" />
+      <point x="83.29163175534154" y="614.0" />
+      <point x="0.0" y="614.0" />
+      <point x="0.0" y="180.0" />
+      <point x="949.0965909090908" y="180.0" />
+      <point x="-87.63636363636363" y="70.0" />
+    </edge>
+    <edge source="book.BookOrderItem" target="book.Book">
+      <point x="-57.75" y="-48.0" />
+      <point x="816.8541317553415" y="200.0" />
+      <point x="992.9147727272725" y="200.0" />
+      <point x="-43.81818181818187" y="70.0" />
+    </edge>
+    <edge source="book.Book" target="book.Book">
+      <point x="-109.54545454545455" y="70.0" />
+      <point x="927.1874999999999" y="160.0" />
+      <point x="896.2329545454545" y="160.0" />
+      <point x="896.2329545454545" y="70.0" />
+      <point x="-120.5" y="-0.0" />
+    </edge>
+    <edge source="book.BookStore" target="book.BookStore">
+      <point x="-78.0" y="36.5" />
+      <point x="1150.8541666666665" y="521.5" />
+      <point x="1111.3541666666665" y="521.5" />
+      <point x="1111.3541666666665" y="465.0" />
+      <point x="-97.5" y="-0.0" />
+    </edge>
+    <edge source="book.StudentBorrowingOrder" target="book.Student">
+      <point x="19.125" y="-70.5" />
+      <point x="236.29163175534154" y="584.0" />
+      <point x="417.7857142857143" y="584.0" />
+      <point x="-73.71428571428567" y="59.0" />
+    </edge>
+    <edge source="book.BookStorageFactory" target="book.BookStore">
+      <point x="82.33333333333326" y="-25.5" />
+      <point x="1289.5208333333333" y="614.0" />
+      <point x="1267.8541666666665" y="614.0" />
+      <point x="39.0" y="36.5" />
+    </edge>
+    <edge source="book.StudentReturningOrder" target="book.Administrator">
+      <point x="-42.375" y="-70.5" />
+      <point x="883.125" y="574.0" />
+      <point x="820.0" y="574.0" />
+      <point x="58.0" y="59.0" />
+    </edge>
+    <edge source="book.StudentBorrowingOrder" target="book.StudentBorrowingOrderItem">
+      <point x="-57.375" y="-70.5" />
+      <point x="159.79163175534154" y="614.0" />
+      <point x="166.5" y="614.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="book.BookStoreItem" target="book.Book">
+      <point x="57.25" y="-48.0" />
+      <point x="1332.2831133919844" y="190.0" />
+      <point x="1124.369318181818" y="190.0" />
+      <point x="87.63636363636351" y="70.0" />
+    </edge>
+    <edge source="book.Administrator" target="book.Administrator">
+      <point x="-87.0" y="59.0" />
+      <point x="675.0" y="544.0" />
+      <point x="640.5" y="544.0" />
+      <point x="640.5" y="465.0" />
+      <point x="-101.5" y="-0.0" />
+    </edge>
+    <edge source="book.Manager" target="book.Administrator">
+      <point x="-19.0" y="-47.5" />
+      <point x="838.7466397849464" y="855.0" />
+      <point x="782.0" y="855.0" />
+      <point x="782.0" y="614.0" />
+      <point x="791.0" y="614.0" />
+      <point x="29.0" y="59.0" />
+    </edge>
+    <edge source="book.StudentReturningOrder" target="book.Student">
+      <point x="-70.625" y="-70.5" />
+      <point x="854.875" y="584.0" />
+      <point x="602.0714285714284" y="584.0" />
+      <point x="110.57142857142856" y="59.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.8927680798004988" x="408.0977653631285" y="381.0" />
+  <settings layout="Hierarchic Group" zoom="0.6727284338193653" x="628.3751560516037" y="620.265767773642" />
   <SelectedNodes>
-    <node>book.StudentReturningOrder</node>
+    <node>book.StudentReturningOrderItem</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>

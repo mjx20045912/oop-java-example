@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Manager {
-    static BookStore bookStore = BookStorageFactory.getBookStorage();
-    static Administrator admin = new Administrator("majianxun");
+    private static BookStore bookStore = BookStorageFactory.getBookStorage();
+    private static Administrator admin = new Administrator("majianxun");
 
     private static void initBookStorage() {
         bookStore.push(new Book("001", "Math"), 30);
