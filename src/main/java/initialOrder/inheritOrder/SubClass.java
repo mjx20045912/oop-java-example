@@ -1,7 +1,5 @@
 package initialOrder.inheritOrder;
 
-
-
 public class SubClass extends Parent {
     /* 静态变量 */
     public static String s_StaticField = "子类--静态变量";

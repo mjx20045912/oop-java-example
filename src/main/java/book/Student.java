@@ -1,5 +1,7 @@
 package book;
 
+import java.util.Map;
+
 public class Student {
     private String number;
     private String name;
@@ -21,5 +23,13 @@ public class Student {
 
     public String getCellPhone() {
         return cellPhone;
+    }
+
+    public StudentBorrowingOrder borrowBooks(Map<Book, Integer> books){
+        return Manager.borrow(this, books);
+    }
+
+    public StudentReturningOrder returningOrder(Map<Book, Integer> books){
+        return Manager.back(this, books);
     }
 }
